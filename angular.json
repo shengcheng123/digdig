@@ -26,10 +26,13 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets",
+              "src/game.ts",
+              "src/player.ts",
+              "src/terrain.ts",
+              "src/shop.ts",
+              "src/titleScreen.ts"
             ],
             "styles": [
               "src/styles.scss"
@@ -98,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
